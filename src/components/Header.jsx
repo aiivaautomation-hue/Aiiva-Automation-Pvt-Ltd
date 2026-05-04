@@ -74,7 +74,7 @@ export default function Navbar() {
         
         {/* Logo */}
         {/* Logo */}
-<div className="w-[33%] flex items-center gap-3">
+<div className="w-[33%] flex items-center">
   <Image
     src="/logo-img.jpg"
     alt="AIIVA Automation"
@@ -83,14 +83,6 @@ export default function Navbar() {
     className="object-contain"
   />
 
-  <div className="flex flex-col leading-tight">
-    <span className="text-[15px] md:text-[17px] font-semibold tracking-tight text-black">
-      AIIVA
-    </span>
-    <span className="text-[11px] md:text-[13px] font-bold tracking-wide text-orange-500">
-      Automation
-    </span>
-  </div>
 </div>
         {/* <div className="w-[33%] flex items-center">
           <div className="w-[100%]">

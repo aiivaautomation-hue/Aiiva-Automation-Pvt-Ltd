@@ -31,9 +31,9 @@ export default function AboutSection() {
         </div>
 
         {/* Image */}
-        <div className="relative w-full h-[350px] md:h-[450px]">
+        <div className="relative w-full h-[350px] md:h-[400px]">
           <Image
-            src="/aboutus-img.jpeg" 
+            src="/about1.jpg" 
             alt="Smart Home"
             fill
             className="object-cover rounded-md"
@@ -43,89 +43,3 @@ export default function AboutSection() {
     </section>
   );
 }
-
-
-
-
-// function AboutSection() {
-//     return (
-//       <section className="w-full bg-gray-100 py-16">
-//         <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
-  
-//           {/* Top Text */}
-//           <div className="grid lg:grid-cols-2 gap-10 mb-12 items-center">
-//             <div>
-//               <p className="text-sm font-semibold tracking-wide text-gray-500 mb-3">
-//                 ABOUT US
-//               </p>
-//               <h2 className="text-3xl sm:text-4xl lg:text-5xl leading-tight text-gray-900">
-//                 Smart Innovation for Modern Homes Today Advanced
-//               </h2>
-//             </div>
-  
-//             <p className="text-gray-600 text-sm sm:text-base max-w-lg">
-//               Lorem ipsum dolor sit amet consectetur adipiscing elit sociosqu
-//               pulvinar, cubilia quis ornare aliquam odio habitasse commodo sem.
-//             </p>
-//           </div>
-  
-//           {/* Grid Content */}
-//           <div className="grid gap-6 lg:grid-cols-3">
-  
-//             {/* Left Big Image */}
-//             <div className="lg:col-span-1 rounded-2xl overflow-hidden">
-//               <img
-//                 src="/about1.jpg"
-//                 alt="Smart Home"
-//                 className="w-full h-full object-cover"
-//               />
-//             </div>
-  
-//             {/* Middle Column */}
-//             <div className="flex flex-col gap-6">
-//               {/* Top Image */}
-//               <div className="rounded-2xl overflow-hidden">
-//                 <img
-//                   src="/about2.jpg"
-//                   alt="Control Panel"
-//                   className="w-full h-full object-cover"
-//                 />
-//               </div>
-  
-//               {/* Stats Card */}
-//               <div className="bg-gray-200 rounded-2xl p-8 flex items-center justify-center">
-//                 <h3 className="text-4xl font-bold text-gray-900">
-//                   10+
-//                 </h3>
-//               </div>
-//             </div>
-  
-//             {/* Right Highlight Card */}
-//             <div className="bg-lime-400 rounded-2xl p-8 flex flex-col justify-between">
-//               <div>
-//                 <h3 className="text-2xl sm:text-3xl font-semibold text-black mb-4">
-//                   Control Your Home From Your Phone
-//                 </h3>
-  
-//                 <p className="text-gray-800 text-sm sm:text-base mb-6">
-//                   Lorem ipsum dolor sit amet consectetur, adipiscing elit rhoncus ridiculus.
-//                 </p>
-//               </div>
-  
-//               {/* Phone Image */}
-//               <div className="flex justify-center">
-//                 <img
-//                   src="/phone.png"
-//                   alt="Mobile App"
-//                   className="w-48 sm:w-56 md:w-64 object-contain"
-//                 />
-//               </div>
-//             </div>
-  
-//           </div>
-//         </div>
-//       </section>
-//     );
-//   }
-
-//   export default AboutSection

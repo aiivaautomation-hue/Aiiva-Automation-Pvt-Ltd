@@ -11,7 +11,7 @@ export default function CtaSection() {
             <div className="relative h-[300px] md:h-[400px] lg:h-auto p-2 border overflow-hidden">
             <div className="w-full h-full overflow-hidden">
               <img
-                src="/ctaimg.jpeg" 
+                src="/cta.jpg" 
                 alt="Smart home interior"
                 className="w-full h-full object-cover border scale-100 hover:scale-102 hover:brightness-80 transition-all duration-800 ease-in-out"
               />
