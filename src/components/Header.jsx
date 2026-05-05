@@ -86,7 +86,7 @@ export default function Navbar() {
 
   {/* Recreated Text Logo */}
   <div className="flex flex-col items-center leading-[1.1]">
-  <span className="font-extrabold font-montserrat text-[12px] tracking-[1px] text-[#2b2b2b]">
+  <span className="font-extrabold font-montserrat text-[8px] md:text-[12px] tracking-[1px] text-[#2b2b2b]">
     AIIVA AUTOMATION
   </span>
   <span className="font-[500] font-montserrat text-[8px] tracking-[0px] text-[#2b2b2b]">
@@ -134,7 +134,7 @@ export default function Navbar() {
 
             {/* Phone icon only */}
             <a
-              href="tel:+18001230789"
+              href="tel:+919000006000"
               className=" flex items-center justify-center w-9 h-9 rounded-full border border-black/25 hover:border-black/60 transition-colors duration-200"
               aria-label="Call us"
             >

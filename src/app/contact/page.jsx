@@ -65,7 +65,8 @@ export default function ContactPage() {
               <PhoneIcon />
               <div>
                 <p className="text-xs text-slate-400 uppercase">Phone</p>
-                <p className="text-slate-900 font-medium">+91 90000 60000</p>
+                <a href="tel:+919000006000" className="hover:text-black">9000006000</a>
+                  <a href="tel:+918978690369" className="hover:text-black">8978690369</a>
               </div>
             </div>
 
@@ -86,8 +87,8 @@ export default function ContactPage() {
               <div>
                 <p className="text-xs text-slate-400 uppercase">Office</p>
                 <p className="text-slate-900 font-medium leading-relaxed">
-                  F-504, The Legend Palace Colony, New Mla Quarters,<br />
-                  Hyderabad, Himayathnagar, Telangana, India, 500063
+                  AIIVA AUTOMATION PRIVATE LIMITED F-504 , The Legend ,<br/>
+                   Basheer bagh , Hyderabad - 500063.
                 </p>
               </div>
             </div>
