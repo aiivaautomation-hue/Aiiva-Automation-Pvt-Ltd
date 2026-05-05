@@ -65,7 +65,7 @@ export default function ContactPage() {
               <PhoneIcon />
               <div>
                 <p className="text-xs text-slate-400 uppercase">Phone</p>
-                <a href="tel:+919000006000" className="hover:text-black">9000006000</a>
+                <a href="tel:+919000006000" className="hover:text-black">9000006000</a><br/>
                   <a href="tel:+918978690369" className="hover:text-black">8978690369</a>
               </div>
             </div>
