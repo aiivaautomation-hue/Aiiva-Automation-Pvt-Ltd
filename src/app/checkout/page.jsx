@@ -29,7 +29,7 @@ Items:
 ${items}
     `;
 
-    const url = `https://wa.me/9000006000?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/919000006000?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
 
