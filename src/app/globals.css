@@ -11,7 +11,8 @@
   --font-sans: var(--font-geist-sans);
   --font-heading: var(--font-serif);
   --font-inter: var(--font-inter);
-
+  --font-spline: var(--font-spline);
+  --font-montserrat: var(--font-montserrat);
 }
 
 @media (prefers-color-scheme: dark) {

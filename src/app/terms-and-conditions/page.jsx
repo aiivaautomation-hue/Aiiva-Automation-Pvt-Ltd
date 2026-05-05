@@ -1,10 +1,10 @@
-export default function PrivacyPage() {
+export default function TermsAndConditionPage() {
     return (
-      <div className="w-full flex flex-col">
-  
+      <div className="w-full font-spline flex flex-col">
+
         {/* Top Banner */}
         <div className="w-full bg-gray-200 py-16 pt-32 flex items-center justify-center">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold font-arimo text-black">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black">
             Terms & Conditions
           </h2>
         </div>
@@ -17,11 +17,11 @@ export default function PrivacyPage() {
 </h2>
 
 <p className="mb-6">
-  AIIVA Automation Innovations PVT LTD operates the https://kiot.io website and AIIVA Automation Innovations PVT LTD iOS app and AIIVA Automation Innovations PVT LTD Android app, which provides the SERVICE. This page is used to inform users regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service. If you choose to use our Service, then you agree to the collection and use of information in relation with this policy. The Personal Information that we collect are used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
+  AIIVA AUTOMATION PRIVATE LIMITED, operates the https://aiiva-automation.com website and AIIVA AUTOMATION PVT. LTD. iOS app and AIIVA AUTOMATION PVT. LTD. Android app, which provides the SERVICE. This page is used to inform users regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service. If you choose to use our Service, then you agree to the collection and use of information in relation with this policy. The Personal Information that we collect are used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
 </p>
 
 <p className="mb-6">
-  The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at https://kiot.io, unless otherwise defined in this Privacy Policy.
+  The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at https://aiiva-automation.com, unless otherwise defined in this Privacy Policy.
 </p>
 
 <h3 className="text-md md:text-lg font-semibold text-gray-800 mt-8 mb-4">

@@ -1,4 +1,4 @@
-import { Geist, Inter } from "next/font/google";
+import { Geist, Inter, Spline_Sans, Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -13,7 +13,20 @@ const geist = Geist({
 
 const inter = Inter({
   variable: "--font-inter",
-  weight: ["500", "600", "700"], // reduce weights
+  weight: ["500", "600", "700"],
+  subsets: ["latin"],
+});
+
+const spline = Spline_Sans({
+  variable: "--font-spline",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata = {
@@ -25,15 +38,15 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${geist.variable} ${inter.variable} h-full antialiased`}
+      className={`${geist.variable} ${inter.variable} ${spline.variable} ${montserrat.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <CartProvider>
-        <Header/>
-        <CartDrawer/>
-        {children}
-        <Footer/>
-        <Toast/>
+          <Header />
+          <CartDrawer />
+          {children}
+          <Footer />
+          <Toast />
         </CartProvider>
       </body>
     </html>
