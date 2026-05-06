@@ -1,5 +1,65 @@
 import ProductCard from "@/components/ProductCard";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+
+export const metadata = {
+  title: {
+    default: "Smart Home Products in Hyderabad | Switches, Locks & Automation",
+    template: "%s | AIIVA Automation",
+  },
+
+  description:
+    "Buy smart home products in Hyderabad including smart switches, lighting, locks, sensors, and automation systems. AIIVA Automation offers reliable solutions for homes and commercial spaces.",
+
+  keywords: [
+    "smart home products Hyderabad",
+    "buy smart switches Hyderabad",
+    "smart locks India",
+    "home automation products Hyderabad",
+    "smart lighting systems India",
+    "IoT home devices",
+    "automation systems for homes",
+    "AIIVA Automation products",
+  ],
+
+  alternates: {
+    canonical: `${siteUrl}/products`,
+  },
+
+  openGraph: {
+    title: "Smart Home Products in Hyderabad | AIIVA Automation",
+    description:
+      "Explore smart switches, locks, lighting, sensors, and automation systems for modern homes and businesses.",
+    url: `${siteUrl}/products`,
+    siteName: "AIIVA Automation",
+    locale: "en_IN",
+    type: "website",
+    images: [
+      {
+        url: "/logo-img.jpg", // add in public folder
+        width: 1200,
+        height: 630,
+        alt: "Smart Home Automation Products",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Smart Home Products in Hyderabad",
+    description:
+      "Smart switches, locks, lighting & automation systems by AIIVA Automation.",
+    images: ["/logo-img.jpg"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  category: "technology",
+};
+
 const products = [
   { id: 1, name: "1 Node Switch", desc: "Single-node smart switch for easy control of one device, offering convenient remote access and efficient automation.", image: "https://vjsmartautomation.com/product_uploads_files/1%20Node%20Switch.png" },
   { id: 2, name: "Smart Touch Switches", desc: "Premium modular and app-controlled switches for modern spaces.", image: "https://pmt-fl.com/wp-content/uploads/2025/01/woman-controlling-digital-thermostat.jpg" },
