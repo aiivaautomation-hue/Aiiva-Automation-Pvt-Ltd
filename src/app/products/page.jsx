@@ -11,6 +11,7 @@ const products = [
   { id: 8, name: "Mobile App & Voice Control", desc: "Centralized control through mobile app, Alexa, and Google Assistant integration.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBWj05fxjwReuIs6aVXu0i_DzWJ-iKJsZL7g&s" },
   { id: 9, name: "Commercial Automation Solutions", desc: "Smart systems for offices, hotels, retail outlets, and commercial buildings.", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX2Px3AFVkL8UiQUW-Z3VLHBXfKf_hB0kKzw&s" },
   { id: 10, name: "Installation & Support Services", desc: "Site survey, setup, training, maintenance, and after-sales support.", image: "https://www.rmsinstalls.com/front/images/home-automation-banner.jpg" },
+  { id: 11, name: "1 Node Switch", desc: "Single-node smart switch for easy control of one device, offering convenient remote access and efficient automation.", image: "https://vjsmartautomation.com/product_uploads_files/1%20Node%20Switch.png" },
 ];
 
 export default function ProductsPage() {

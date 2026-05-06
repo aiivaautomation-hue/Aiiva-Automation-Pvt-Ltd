@@ -21,7 +21,7 @@ export default function PrivacyPage() {
 </p>
 
 <p className="mb-6">
-  This Privacy Statement applies to AIIVA AUTOMATION PVT. LTD. websites and Solutions that link to or references this Statement and describes how we handle personal information and the choices available to you regarding collection, use, access, and how to update and correct your personal information. Additional information on our personal information practices may be provided in offer descriptions, supplemental privacy statements, or notices provided prior to or at the time of data collection. Certain KIOT parent or subsidiary websites may have their own privacy statement that describes how we handle personal information for those websites specifically. To the extent a notice provided at the time of collection or a website or Solution specific privacy statement conflict with this Privacy Statement, such specific notice or supplemental privacy statement will control.
+  This Privacy Statement applies to AIIVA AUTOMATION PVT. LTD. websites and Solutions that link to or references this Statement and describes how we handle personal information and the choices available to you regarding collection, use, access, and how to update and correct your personal information. Additional information on our personal information practices may be provided in offer descriptions, supplemental privacy statements, or notices provided prior to or at the time of data collection. Certain Aiiva Automation Pvt. Ltd. parent or subsidiary websites may have their own privacy statement that describes how we handle personal information for those websites specifically. To the extent a notice provided at the time of collection or a website or Solution specific privacy statement conflict with this Privacy Statement, such specific notice or supplemental privacy statement will control.
 </p>
 
 <h3 className="text-md md:text-lg font-semibold text-gray-800 mt-8 mb-4">
@@ -262,7 +262,7 @@ export default function PrivacyPage() {
 </p>
 
 <h3 className="text-md md:text-lg font-semibold text-gray-800 mt-8 mb-4">
-  Updates to this KIOT Privacy Statement
+  Updates to this Aiiva Automation Pvt. Ltd. Privacy Statement
 </h3>
 
 <p className="mb-6">
@@ -274,53 +274,3 @@ export default function PrivacyPage() {
     );
   }
 
-
-
-
-
-        //   {/* Content Section */}
-        //   <div className="max-w-7xl mx-auto px-6 py-12 text-gray-700 leading-8">
-  
-        //   {/* Heading */}
-        //   <h2 className="text-lg md:text-xl font-semibold text-gray-800 mb-6">
-        //     KIOT INNOVATIONS PVT. LTD. PRIVACY STATEMENT
-        //   </h2>
-  
-        //   {/* Paragraph 1 */}
-        //   <p className="mb-6">
-        //     KIOT INNOVATIONS PVT. LTD., and its subsidiaries or Parent Companies
-        //     (collectively “KIOT”) are committed to protecting your privacy and
-        //     providing you with a positive experience on our websites and in using
-        //     our products and services (“Solution” or “Solutions”).
-        //   </p>
-  
-        //   {/* Paragraph 2 */}
-        //   <p className="mb-6">
-        //     This Privacy Statement applies to KIOT websites and Solutions that link
-        //     to or references this Statement and describes how we handle personal
-        //     information and the choices available to you regarding collection,
-        //     use, access, and how to update and correct your personal information.
-        //     Additional information on our personal information practices may be
-        //     provided in offer descriptions, supplemental privacy statements, or
-        //     notices provided prior to or at the time of data collection. Certain
-        //     KIOT parent or subsidiary websites may have their own privacy
-        //     statement that describes how we handle personal information for those
-        //     websites specifically. To the extent a notice provided at the time of
-        //     collection or a website or Solution specific privacy statement
-        //     conflict with this Privacy Statement, such specific notice or
-        //     supplemental privacy statement will control.
-        //   </p>
-  
-        //   {/* Section Title */}
-        //   <h3 className="text-md md:text-lg font-semibold text-gray-800 mt-8 mb-4">
-        //     Collection of Your Personal Information
-        //   </h3>
-  
-        //   {/* Placeholder content */}
-        //   <p className="mb-6">
-        //     We may collect personal information such as your name, contact details,
-        //     and other relevant data when you interact with our website, products,
-        //     or services.
-        //   </p>
-  
-        // </div>
