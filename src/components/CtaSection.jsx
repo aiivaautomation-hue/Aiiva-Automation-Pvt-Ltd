@@ -22,11 +22,11 @@ export default function CtaSection() {
             <div className="bg-[#12141a] text-white flex items-center">
               <div className="p-10 lg:p-14 space-y-6">
   
-                <h2 className="text-3xl lg:text-4xl font-semibold font-arimo leading-snug">
+                <h2 className="text-3xl lg:text-4xl font-semibold leading-snug">
                   Experience Premium Smart Home Integration
                 </h2>
   
-                <p className="text-gray-300 text-sm lg:text-base font-arimo leading-relaxed">
+                <p className="text-gray-300  text-[15px] md:text-[17px] leading-relaxed">
                   We provide seamless automation systems with reliable connectivity
                   and expert installation. Control every device effortlessly and
                   enjoy peace of mind with enhanced home security. We provide

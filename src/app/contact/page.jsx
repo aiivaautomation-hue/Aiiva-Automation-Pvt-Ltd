@@ -19,34 +19,34 @@ export default function ContactPage() {
 
   // ICONS
   const PhoneIcon = () => (
-    <svg className="w-5 h-5 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <svg className="w-5 h-5 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path strokeWidth="2" d="M3 5a2 2 0 012-2h2.3a2 2 0 011.8 1.1l1 2.4a2 2 0 01-.4 2.3L8.9 10a16 16 0 006 6l1.2-1.8a2 2 0 012.3-.5l2.4 1.1A2 2 0 0121 18v2a2 2 0 01-2 2C9 22 2 15 2 6V5z" />
     </svg>
   );
 
   const MailIcon = () => (
-    <svg className="w-5 h-5 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <svg className="w-5 h-5 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path strokeWidth="2" d="M4 4h16a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2z" />
       <path strokeWidth="2" d="M22 6l-10 7L2 6" />
     </svg>
   );
 
   const MapIcon = () => (
-    <svg className="w-5 h-5 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <svg className="w-5 h-5 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path strokeWidth="2" d="M12 21s8-4.5 8-11a8 8 0 10-16 0c0 6.5 8 11 8 11z" />
       <circle cx="12" cy="10" r="2" strokeWidth="2" />
     </svg>
   );
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col items-center px-4 py-24 pt-32">
+    <div className="min-h-screen bg-slate-50 flex flex-col items-center px-4 py-24 pt-34">
 
       {/* MAIN CONTENT */}
       <div className="w-full max-w-7xl grid md:grid-cols-2 gap-12">
 
         {/* LEFT SIDE */}
         <div>
-          <p className="text-sm font-medium tracking-[2px] text-orange-500 mb-3">
+          <p className="text-sm font-medium tracking-[2px] text-orange-600 mb-3">
             CONTACT US
           </p>
 
@@ -87,7 +87,7 @@ export default function ContactPage() {
             <div className="flex flex-wrap items-center gap-4 bg-white border border-slate-200 rounded-md p-5 shadow-sm hover:shadow-md transition">
               <MapIcon />
               <div>
-                <p className="text-xs text-slate-400 uppercase">Office</p>
+                <p className="text-sm text-slate-400 uppercase">Office</p>
                 <p className="text-slate-900 font-medium leading-relaxed">
                   AIIVA AUTOMATION PRIVATE LIMITED F-504 , The Legend ,<br/>
                    Basheer bagh , Hyderabad - 500063.
@@ -177,7 +177,7 @@ export default function ContactPage() {
               </span>
             </button>
 
-            <p className="text-xs text-slate-400">
+            <p className="text-sm text-slate-400">
               We usually reply within a few hours
             </p>
 

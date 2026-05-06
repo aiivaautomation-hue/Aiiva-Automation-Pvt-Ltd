@@ -97,8 +97,8 @@ export default function OurServices() {
         
         {/* LEFT */}
         <div className="space-y-6 max-w-xl lg:sticky lg:top-24 self-start">
-          <p className="text-xs tracking-[3px] text-orange-500 font-semibold uppercase">
-            Our Products
+          <p className="text-sm font-medium tracking-[2px] text-orange-600 mb-3">
+            OUR SERVICES
           </p>
 
           <h2 className="text-[clamp(1.8rem,4vw,3.4rem)] font-bold text-gray-900 leading-tight">
@@ -107,7 +107,7 @@ export default function OurServices() {
             Simplified
           </h2>
 
-          <p className="text-gray-600 text-[clamp(0.95rem,1.2vw,1.1rem)] leading-relaxed">
+          <p className="text-gray-600 text-[15px] md:text-[17px] leading-relaxed">
             Upgrade your lifestyle with intelligent automation designed for comfort,
             security, and energy efficiency.
           </p>
@@ -212,7 +212,7 @@ export default function OurServices() {
 
 //         {/* LEFT */}
 //         <div className="space-y-5 max-w-xl">
-//           <p className="text-xs tracking-[3px] text-orange-500 font-semibold uppercase">
+//           <p className="text-xs tracking-[3px] text-orange-600 font-semibold uppercase">
 //             Our Services
 //           </p>
 
@@ -327,7 +327,7 @@ export default function OurServices() {
 //     ">
 
 //       <div className="w-10 h-10 rounded-md bg-orange-100 flex items-center justify-center mb-4 group-hover:bg-orange-500 transition">
-//         <span className="text-orange-500 group-hover:text-white font-bold">
+//         <span className="text-orange-600 group-hover:text-white font-bold">
 //           ↗
 //         </span>
 //       </div>
@@ -343,7 +343,7 @@ export default function OurServices() {
 //       <ul className="text-sm text-gray-700 space-y-2">
 //         {item.points.map((point, i) => (
 //           <li key={i} className="flex gap-2 items-start">
-//             <span className="text-orange-500 mt-[2px]">✓</span>
+//             <span className="text-orange-600 mt-[2px]">✓</span>
 //             {point}
 //           </li>
 //         ))}

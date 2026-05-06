@@ -34,7 +34,7 @@ ${items}
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 flex items-center justify-center px-4 py-16">
+    <div className="min-h-screen bg-slate-50 flex items-center justify-center px-4 py-16 pt-32">
 
       <div className="w-full max-w-7xl grid md:grid-cols-2 gap-10">
 
@@ -45,20 +45,20 @@ ${items}
             Your Order
           </h2>
 
-          <p className="text-sm text-slate-500 mt-1">
+          <p className=" text-[15px] md:text-[17px] text-slate-500 mt-1">
             Review your items before checkout
           </p>
 
           <div className="mt-6 space-y-3">
             {cart.length === 0 ? (
-              <p className="text-slate-400 text-sm">Your cart is empty</p>
+              <p className="text-slate-400  text-[15px] md:text-[17px]">Your cart is empty</p>
             ) : (
               cart.map((item) => (
                 <div
                   key={item.id}
                   className="flex justify-between items-center py-3 px-4 rounded-md bg-orange-100 border border-slate-100"
                 >
-                  <span className="text-slate-800 font-medium">
+                  <span className="text-slate-800 text-[15px] md:text-[17px] font-medium">
                     {item.name}
                   </span>
                 </div>
@@ -75,7 +75,7 @@ ${items}
             Checkout Details
           </h2>
 
-          <p className="text-sm text-slate-500 mt-1 mb-6">
+          <p className="text-[15px] md:text-[17px] text-slate-500 mt-1 mb-6">
             Fill in your details to place the order via WhatsApp
           </p>
 
@@ -151,7 +151,7 @@ ${items}
               </span>
             </button>
 
-            <p className="text-xs text-slate-400">
+            <p className="text-sm text-slate-400">
               You will be redirected to WhatsApp to confirm order
             </p>
           </div>

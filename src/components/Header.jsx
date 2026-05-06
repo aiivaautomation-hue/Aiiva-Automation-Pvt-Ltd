@@ -74,26 +74,28 @@ export default function Navbar() {
         
         {/* Logo */}
         <div className="w-[33%] flex items-center justify-start ">
+          <Link href={"/"}>
           <div className="flex flex-col items-center gap-1">
               {/* Logo Icon */}
-  <Image
-    src="/logo-final-img.jpg"
-    alt="AIIVA logo"
-    width={50}
-    height={50}
-    className="object-contain"
-  />
+              <Image
+                src="/logo-final-img.jpg"
+                alt="AIIVA logo"
+                width={50}
+                height={50}
+                className="object-contain"
+              />
 
-  {/* Recreated Text Logo */}
-  <div className="flex flex-col items-center leading-[1.1]">
-  <span className="font-extrabold font-montserrat text-[8px] md:text-[12px] tracking-[1px] text-[#2b2b2b]">
-    AIIVA AUTOMATION
-  </span>
-  <span className="font-[500] font-montserrat text-[8px] tracking-[0px] text-[#2b2b2b]">
-    PRIVATE LIMITED
-  </span>
-</div>
+              {/* Recreated Text Logo */}
+              <div className="flex flex-col items-center leading-[1.1]">
+              <span className="font-extrabold font-montserrat text-[8px] md:text-[12px] sm:tracking-[1px] text-[#2b2b2b]">
+                AIIVA AUTOMATION
+              </span>
+              <span className="font-[500] font-montserrat text-[8px] tracking-[0px] text-[#2b2b2b]">
+                PRIVATE LIMITED
+              </span>
+            </div>
           </div>
+          </Link>
         </div>
     
 
@@ -103,7 +105,7 @@ export default function Navbar() {
               <Link
                 key={label}
                 href={href}
-                className={`nav-link text-[13px] font-bold tracking-[2px] no-underline px-3 py-1.5 rounded transition-colors duration-200 whitespace-nowrap
+                className={`nav-link text-[14px] font-bold tracking-[2px] no-underline px-3 py-1.5 rounded transition-colors duration-200 whitespace-nowrap
                   ${isActive(href) ? "text-black/95 font-bold" : "text-black/65 hover:text-black/95"}`}
               >
                 {label}
@@ -178,28 +180,36 @@ export default function Navbar() {
           className={`drawer fixed top-0 left-0 w-[100%] border-b bg-white border-[black]/[0.4] z-[999] flex flex-col overflow-y-auto shadow-[4px_0_40px_rgba(0,0,0,0.6)] lg:hidden ${menuOpen ? "open" : ""}`}
         >
           {/* Drawer head */}
-          <div className="flex items-center justify-between px-5 py-4 bg-white border-b border-[black]/[0.07]">
+          <div className="flex items-center justify-between px-5 py-4 bg-white border-b border-[black]/[0.2]">
             <Link
               href="/"
               className="flex items-center gap-2 no-underline"
               onClick={() => setMenuOpen(false)}
             >
               {/* Logo */}
-              <div className="flex items-center gap-2">
-                <div className="flex">
-                  <div className="w-5 h-5 border-2 border-orange-500 rounded-full"></div>
-                  <div className="w-5 h-5 border-2 border-orange-300 rounded-full -ml-2"></div>
-                </div>
-                <div className="flex flex-col leading-0.6">
-                  <span className="text-[15px] font-semibold sm:text-sm tracking-[2px] text-[black]">
-                    AIIVA
-                  </span>
-                  <span className="text-[10px] sm:text-[12px] font-semibold tracking-[1.7px] text-orange-500">
-                    Automation
-                  </span>
-                </div>
+              <div className="flex items-center">
+              <div className="flex flex-col items-center gap-1">
+              {/* Logo Icon */}
+              <Image
+                src="/logo-final-img.jpg"
+                alt="AIIVA logo"
+                width={50}
+                height={50}
+                className="object-contain"
+              />
+
+              {/* Recreated Text Logo */}
+              <div className="flex flex-col items-center leading-[1.1]">
+              <span className="font-extrabold font-montserrat text-[8px] md:text-[12px] tracking-[1px] text-[#2b2b2b]">
+                AIIVA AUTOMATION
+              </span>
+              <span className="font-[500] font-montserrat text-[8px] tracking-[0px] text-[#2b2b2b]">
+                PRIVATE LIMITED
+              </span>
               </div>
-            </Link>
+            </div>
+          </div>
+          </Link>
             <button
               onClick={() => setMenuOpen(false)}
               aria-label="Close menu"

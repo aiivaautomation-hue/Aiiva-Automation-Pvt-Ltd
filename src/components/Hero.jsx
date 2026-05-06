@@ -7,7 +7,7 @@ function Hero() {
         {/* Background */}
         <div className="absolute inset-0">
           <Image
-            src="/hero-bg.jpg" // replace with your image
+            src="/hero-bg.jpg"
             alt="Smart Home"
             fill
             priority
@@ -24,11 +24,11 @@ function Hero() {
             <h1 className="font-bold leading-tight mb-5 
               text-4xl md:text-5xl lg:text-6xl">
               Transform Your <br/>
-              Space with <span className="text-orange-500">Smart Automation</span>
+              Space with <span className="text-orange-600">Smart Automation</span>
             </h1>
   
             <p className="text-gray-300 mb-8 
-               text-base md:text-lg max-w-xl">
+               text-[17px] md:text-[19px] max-w-xl">
               Control lights, locks, appliances, and security—anytime, anywhere with AIIVA’s intelligent automation solutions.
             </p>
             {/* from-orange-600 via-orange-500 to-amber-600 */}
@@ -78,7 +78,7 @@ function Hero() {
         <div className="absolute bottom-0 w-full">
           <div className=" border-t border-white/20">
             <div className="max-w-7xl mx-auto px-5 sm:px-8 md:px-12 xl:px-0 py-4">
-              <p className="text-gray-200 text-sm md:text-base">
+              <p className="text-gray-200 text-[15px] md:text-[17px]">
               AIIVA brings intelligent, reliable, and affordable automation to homes and businesses—making every space smarter, safer, and more efficient.
               </p>
             </div>
@@ -119,7 +119,7 @@ export default Hero
 //             <h1 className="font-bold leading-tight mb-5 
 //               text-4xl md:text-5xl lg:text-6xl">
 //               Transform Your <br className="" />
-//               Space with <span className="text-orange-500">Smart Automation</span>
+//               Space with <span className="text-orange-600">Smart Automation</span>
 //             </h1>
   
 //             <p className="text-gray-300 mb-8 

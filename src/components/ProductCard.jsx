@@ -38,7 +38,7 @@ export default function ProductCard({ product }) {
         </h3>
 
         {/* Description */}
-        <p className="text-sm text-gray-500 mt-1 line-clamp-2 flex-1">
+        <p className="text-[14px] md:text-[16px] text-gray-500 mt-1 line-clamp-2 flex-1">
           {product.desc}
         </p>
 
