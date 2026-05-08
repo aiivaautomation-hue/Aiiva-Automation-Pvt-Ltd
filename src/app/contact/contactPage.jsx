@@ -66,8 +66,8 @@ export default function ContactPage() {
               <div>
                 <p className="text-xs text-slate-400 uppercase">Phone</p>
                 <div className="flex flex-col">
-                  <a href="tel:+919000006000" className="hover:text-black">9000006000</a>
-                  <a href="tel:+918978690369" className="hover:text-black">8978690369</a>
+                  <a href="tel:+919000006000" className="hover:text-black">Sumannth - 9000006000</a>
+                  <a href="tel:+918978690369" className="hover:text-black">Praneetth - 8978690369</a>
                 </div>
               </div>
             </div>
